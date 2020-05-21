@@ -1,0 +1,38 @@
+.heading {
+  border: 4px solid black;
+  color: darkblue;
+  background-color: #ccc;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.blue {
+  color: blue;
+  background: url(images/promo1.jpg) no-repeat  right;
+}
+
+img[alt="phone"] {
+  border: 4px solid green;
+}
+
+.list {
+  list-style-type: none; 
+}
+
+.list li {
+  width: 220px;
+  height: 25px;
+  border: 1px solid #000;
+}
+
+.list + p {
+  color: darkgreen;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
