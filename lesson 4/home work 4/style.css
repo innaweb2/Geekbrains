@@ -1,5 +1,5 @@
 body {
-  background-color:#f8f8f8;
+  background-color: white;
 }
 
 .list {
@@ -8,6 +8,14 @@ body {
   font-style: normal;
   font-weight: bold;
   color: black;
+}
+
+.list li a:hover {
+  color: plum;
+}
+
+.list li a:active {
+  color: green;
 }
 
 .cake {
@@ -33,21 +41,60 @@ body {
 }
 
 .description {
- color: darkslategrey;
- font-size: 16px;
- list-style-image: url(images/icon16x16.png);
- font-weight: normal;
- background-color: pink ;
+  color: darkslategrey;
+  font-size: 16px;
+  list-style-image: url(images/icon16x16.png);
+  font-weight: normal;
+  background-color: pink;
 }
 
 .input {
   height: 20px;
   width: 200px;
-  color: blue;
   font-size: 15px;
   padding: 5px 15px;
-  }
+  text-transform: capitalize;
+}
+
+.mail {
+  height: 20px;
+  width: 200px;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+
+.mail:focus {
+  background-color: rgba(214, 54, 102, 0.534);
+  color: brown;
+  text-transform: capitalize;
+}
 
 .shadow {
-   box-shadow: 3px -3px 10px 2px #ffb3c1;
+  outline: 4px solid pink;
+}
+
+.shadow:hover{
+  outline-color: transparent;
+}
+
+.table {
+  border: 4px solid plum;
+  width: 500px;
+  height: 300px;
+  border-collapse: collapse;
+}
+
+.table td {
+  border: 1px solid plum;
+  padding: 5px;
+}
+
+.row {
+  height: 50px;
+  text-align: center;
+}
+
+.goods p:first-letter {
+  font-size: 30px;
+  color: plum;
 }
