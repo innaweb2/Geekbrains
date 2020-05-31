@@ -139,7 +139,9 @@ body {
 }
 
 .goods-link-img {
-  margin-right: 5px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+
 }
 
 .clear {
@@ -158,24 +160,26 @@ body {
 }
 
 .button {
-  position: absolute;
+  display: inline-block;
   border: 1px solid #000;
   width: 150px;
-  height: 40px;
+  padding: 15px;
   text-transform: uppercase;
   text-align: center;
   font-family: serif;
-  left: 400px;
-  top: 450px;
+  line-height: 1;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
   background-color: pink;
   padding-bottom: 15px;
 }
 
-.button h3:hover {
+.button:hover {
   color: red;
 }
 
-.button h3:active {
+.button:active {
   color: greenyellow;
 }
 
