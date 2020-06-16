@@ -1,4 +1,6 @@
 
+@widthALL: 1366px;
+
 *{
   margin: 0;
   padding: 0;
@@ -8,10 +10,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-a, li {
-  text-decoration: none;
-}
-
 .clearfix:after {
   content: "";
   display: table;
@@ -19,7 +17,7 @@ a, li {
 }
 
 .container {
-  width: 1366px;
+  @widthALL: 1366px;
   margin: 0 auto;
 }
 
@@ -541,83 +539,6 @@ a, li {
   letter-spacing: 0.6px;
   float: right;
 }
-/*стили для контактов*/
-
-.contact-header{
-  background-image: url(img/hero-back.svg);
-  height: 360px;
-}
-
-.contact-us {
-  color: #212121;
-  font-size: 62px;
-  font-weight: 200;
-  padding-top: 150px;
-}
-
-.contact-main {
-  height: 500px;
-  padding-top: 71px;
-  padding-left: 98px;
-  }
-
-.contact-block {
-  height: 370px;
-  width: 370px;
-  background-color: #fff;
-  border: 1px solid #000;
-  display: inline-block;
-  box-sizing: border-box;
-  margin-right: 30px;
-  text-align: center;
-  padding-top: 48px;
-  
-}
-
-.location {
-  color: #212121;
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding-bottom: 20px;
-  padding-top: 20px;
- }
-
-.phone {
-  color: #6c6c6c;
-  font-size: 14px;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-
-.email { 
-  color: #6c6c6c;
-  font-size: 14px;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-
-.adress {
-  font-weight: 300;
-  padding-bottom: 20px;
- }
-
- .contact-footer {
-   height: 384px;
-   background-image: url(img/hero-back.svg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*@media screen and (max-width:600px) {
   .container {
